@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | MegaTech</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<header class="navbar">
+  <h2 class="logo"><i class="fas fa-tools"></i> MegaTech</h2>
+  <nav>
+    <a href="/">Home</a>
+    <a href="about/index.html">About</a>
+  </nav>
+</header>
+
+<section class="page">
+  <h1>Contact MegaTech</h1><br>
+  <p>
+    Ready to work together? Reach out and let’s discuss how technology
+    can help your business grow faster and smarter.
+  </p>
+  <br>
+
+  <p><i class="fas fa-envelope"></i> hello@megatech.com</p>
+  <p><i class="fas fa-whatsapp"></i> WhatsApp Available (+234) 555 666 21</p>
+
+  <form
+  class="contact-form"
+  action="https://formsubmit.co/yourgmail@gmail.com"
+  method="POST"
+>
+  <label for="name">Your Name *</label>
+  <input
+    type="text"
+    id="name"
+    name="name"
+    placeholder="Enter your full name"
+    required
+  />
+
+  <label for="phone">Phone Number (optional)</label>
+  <input
+    type="tel"
+    id="phone"
+    name="phone"
+    placeholder="+234 801 234 5678"
+  />
+
+  <label for="message">Message *</label>
+  <textarea
+    id="message"
+    name="message"
+    rows="5"
+    placeholder="Tell us how we can help you"
+    required
+  ></textarea>
+
+  <!-- FormSubmit settings -->
+  <input type="hidden" name="_subject" value="New Contact Message - MegaTech">
+  <input type="hidden" name="_captcha" value="false">
+
+  <button type="submit" class="btn">Send Message</button>
+</form>
+
+  
+</section>
+
+<script src="/js/main.js"></script>
+</body>
+</html>
